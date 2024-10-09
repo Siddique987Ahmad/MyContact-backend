@@ -68,8 +68,8 @@ const userLogin = asyncHandler(async (req, res) => {
 })
 
 const getCurrentUser = asyncHandler(async (req, res) => {
-
     res.json(req.user)
+
 
 })
 
